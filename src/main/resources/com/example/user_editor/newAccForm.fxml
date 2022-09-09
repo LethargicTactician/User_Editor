@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="584.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.user_editor.SignUpController">
+   <children>
+      <TextField fx:id="firstname" layoutX="192.0" layoutY="188.0" />
+      <TextField fx:id="lastname" layoutX="192.0" layoutY="242.0" />
+      <TextField fx:id="email" layoutX="192.0" layoutY="292.0" />
+      <TextField fx:id="username_" layoutX="192.0" layoutY="344.0" />
+      <Text layoutX="87.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" wrappingWidth="90.67074584960938">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="96.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email adress">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="99.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="createbtn" layoutX="213.0" layoutY="463.0" mnemonicParsing="false" text="Get Started" />
+      <Text layoutX="139.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create New Account" textAlignment="CENTER">
+         <font>
+            <Font name="Arial" size="23.0" />
+         </font>
+      </Text>
+      <Text layoutX="183.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Already Have an account? " />
+      <Button fx:id="loginbtn" layoutX="227.0" layoutY="529.0" mnemonicParsing="false" text="Log in" />
+      <TextField fx:id="password_" layoutX="192.0" layoutY="391.0" />
+      <Text fx:id="lable" layoutX="99.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

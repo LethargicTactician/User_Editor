@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="homeScreen" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="699.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.user_editor.HelloController">
+   <children>
+      <Label fx:id="homeLabel" layoutX="252.0" layoutY="87.0" prefHeight="43.0" prefWidth="183.0" text="Welcome! " wrapText="true">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Text layoutX="266.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="155.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="there's nothing else here so do you want to sign out?" textAlignment="CENTER" />
+      <Button fx:id="btnLogout" layoutX="266.0" layoutY="390.0" mnemonicParsing="false" text="Sign out" />
+      <Text layoutX="172.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="this is the pagthat appears after a successfil login " />
+   </children>
+</Pane>

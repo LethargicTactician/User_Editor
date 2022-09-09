@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="525.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.user_editor.LogInController">
+   <children>
+      <Text fx:id="loginLabel" layoutX="154.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome back!">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="username_input" layoutX="201.0" layoutY="181.0" />
+      <TextField fx:id="password_input" layoutX="201.0" layoutY="238.0" />
+      <Text layoutX="103.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="103.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnLogin" layoutX="211.0" layoutY="346.0" mnemonicParsing="false" text="Log in" />
+      <Text fx:id="errorText" fill="#ed1212" layoutX="224.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</Pane>
